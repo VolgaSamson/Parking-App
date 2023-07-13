@@ -1,0 +1,31 @@
+.button{
+    margin-left: 7px;
+    margin-right: 7px;
+    border: none;
+    width: 120px;
+    color: white;
+    height: 35px;
+    background-image: linear-gradient(315deg, #42679e 0%, #2b2724 74%);
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+
+  .navbar-inverse{
+    background-image: linear-gradient(315deg, #42679e 0%, #2b2724 74%);
+    display: flex;
+   position: fixed;
+       top:0;
+       right: 0;
+       width: 100%;
+       z-index: 1000;
+       
+
+
+  }
+  .navbar-inverse a:hover {
+    background: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgba(68, 66, 66, 0.2);
+    cursor: pointer;
+  }

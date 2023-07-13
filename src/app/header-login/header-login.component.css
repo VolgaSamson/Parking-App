@@ -1,0 +1,11 @@
+.button{
+    margin-left: 7px;
+    margin-right: 7px;
+    border: none;
+    width: 120px;
+    color: white;
+    height: 35px;
+    background-image: linear-gradient(315deg, #42679e 0%, #2b2724 74%);
+    font-weight: 900;
+    border-radius: 5px;
+}

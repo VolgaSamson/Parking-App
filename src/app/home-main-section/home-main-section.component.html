@@ -1,0 +1,91 @@
+<div class="row d-flex justify-content-center" style="height: 90vh;background: url('../assets/Images/image_car.jpg');   
+background-repeat:no-repeat;
+background-size:100% 100%;">
+    <div class="col-md-6 d-flex justify-content-center p-0 align-items-center flex-column">
+        <h1><b>Don't wait in Queue...</b></h1>
+        <h2>Book Your Slot Now!!</h2>
+        <br>
+        <div class="">
+            <!-- <input class="getquote" type="text" placeholder="Parking Slot"> -->
+            <button class="getquotebtn"(click)='checkSession()' >Book Now</button>
+        </div>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+        
+    </div>
+</div>
+
+<div class="bookdisplay">
+    <div class="row-items">  
+    <div  class="container-box" *ngFor="let data of datas">
+      <div class="container-img">
+        <img [src]="data.imgUrl">
+      </div>
+            <h4>{{data.title}}</h4>
+      </div>
+    </div>
+    </div>
+
+
+<div class="row d-flex justify-content-center" style="height: 70vh;">
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div>
+            <img  src="./assets/Images/image_car2.jpg" alt="" style="height: 50vh;width: 500px">
+        </div>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center flex-column">
+        <h2><b>How It Works?</b></h2>
+        <p>When you're on the go, the Park & Pay makes it easy to find and pay for parking without running back to feed the meter. <br> 
+            And for added convenience, you can reserve spots ahead of time.<br>
+            When you're looking for a spot in the moment or want to reserve a space ahead of time, Park & Pay puts the power in the palm of your hand.
+        </p>
+        <br>
+        <div>
+            <button class="getquotebtn" (click)='checkSession()'>Book Now</button>
+        </div>
+    </div>
+</div>
+<div class="row1">
+    <section id="contact">
+    <div class="footer">
+        <div class="main">
+            
+            <div class="list">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Tour</a></li>
+                </ul>
+    
+            </div>
+            <div class="list">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fa fa-home"></i> Abu Dhabi,UAE</li>
+                    <li><i class="fa fa-envelope"></i> volgasamson@gmail.com</li>
+                    <li><i class="fa fa-phone"></i> +971 569116620</li>
+                </ul>
+    
+            </div>
+            <div class="list">
+                <h4>Connect</h4>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><i class="bx bxl-facebook bx-md"></i></a>
+                    <a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt bx-md"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="bx bxl-twitter bx-md"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="bx bxl-linkedin bx-md"></i></a>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+    </div>
+    <div>
+        <p style="color:white;text-align: center;">Copyright @2023 All rights reserved | Made with by Volga Samson</p>
+    </div>
+    </section>
+    </div>
