@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Backend  server
+Run ng server.js so connection will happen to node server port 3300.And connect to sql database using xamp server.
+
+##More about application
+Application to designed to book slots for parking in advance.User have facility to book slot,end booking,view all bookings.
+Two portals are available admin and user.Admin can add slots,add vehicle,add locations and view all bookings.
+
