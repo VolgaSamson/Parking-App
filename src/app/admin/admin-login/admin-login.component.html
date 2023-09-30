@@ -14,7 +14,7 @@
                         <input class="input form-control" formControlName="adminid" [ngClass]="{ 'is-invalid':form.get('adminid')?.touched && form.get('adminid')?.invalid}" name="adminid" type="email" placeholder="Admin ID" autocomplete="off" required>
                         <div class="invalid-feedback">
                             <div *ngIf="form.get('adminid')?.errors?.['required']">
-                                This Field is required!
+                                This Field is required
                             </div>
                         </div>
                     </div>
